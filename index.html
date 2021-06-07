@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joke Teller</title>
+    <link rel="icon" type="image/png" href="./images/robot-icon(s).png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="icon-title">
+      <img
+        class="robot-icon"
+        src="./images/robot-icon(b).png"
+        alt="robot-icon"
+      />
+      <h2 class="title"><i>Joke Teller</i></h2>
+    </div>
+    <div class="container">
+      <div class="joke-container">
+        <div class="joke-text">
+          <span class="joke-title"><u>Joke</u></span
+          ><br /><br />
+          <p class="joke text">You can see the joke in here...</p>
+        </div>
+        <div class="answer-text">
+          <span class="answer-title"
+            ><u>Answer</u> (<span class="counter">5</span>)</span
+          ><br /><br />
+          <p class="answer text">Answer...</p>
+        </div>
+        <div class="voice-joke-options">
+          <div class="voice-options">
+            <span>Voice:</span>
+            <select id="voices" name="voices">
+              <option value="Alice" selected>Alice</option>
+              <option value="Eka">Eka</option>
+              <option value="Linda">Linda</option>
+              <option value="Zoe">Zoe</option>
+            </select>
+          </div>
+          <div class="joke-options">
+            <span>Joke Type:</span>
+            <select id="joke-options" name="voices">
+              <option value="Programming" selected>Programming</option>
+              <option value="Any">Any</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="img-button-wrapper">
+        <audio id="audio" controls hidden></audio>
+        <div class="robot-img-wrapper">
+          <img class="robot" src="./images/robot.gif" alt="robot-gif" />
+        </div>
+        <button id="btn">
+          <span class="font"> Tell Me A Joke </span>
+        </button>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="./js/voice.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
