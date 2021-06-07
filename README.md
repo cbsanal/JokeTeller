@@ -12,6 +12,6 @@
 
 <li>You can visit the website from <a href="https://joketellerwebsite.netlify.app/">here</a>.</li>
 
-## Images of Website
+## Image of Website
 
 <img src="./git-images/github-image.png" width="600px">
