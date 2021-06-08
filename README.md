@@ -1,7 +1,7 @@
 ## Voice API
 
 <li>You can check out <a href="http://www.voicerss.org/">this</a> website to find more information about voice API.</li>
-<li>You can get your free API key from <a href="http://www.voicerss.org/registration.aspx">here</a> after registiration or you can use mine (it's in the script.js file).</li>
+<li>You can get your free API key from <a href="http://www.voicerss.org/registration.aspx">here</a> after registration or you can use mine (it's in script.js file).</li>
 
 ## Joke API
 
